@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 3000px;
+    }
+</style>
+
+<body>
+
+</body>
+<script>
+    document.addEventListener('click', function (e) {
+        // 鼠标在可视区位置
+        console.log(e.clientX);
+        console.log(e.clientY);
+
+        // 2.page 鼠标在页面文档的x和y坐标
+        console.log(e.pageX);
+        console.log(e.pageY);
+
+        //     3.返回相对于电脑屏幕的坐标
+        console.log(e.screenX);
+        console.log(e.screenY);
+    })
+
+
+
+
+
+</script>
+
+</html>
